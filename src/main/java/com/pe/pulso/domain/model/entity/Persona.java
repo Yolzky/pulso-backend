@@ -1,4 +1,4 @@
-package com.pe.pulso.domain.model;
+package com.pe.pulso.domain.model.entity;
 
 import lombok.*;
 
