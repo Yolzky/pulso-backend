@@ -13,7 +13,6 @@ import java.time.LocalDate;
 @Entity
 @Table(name = "tb_medico_especialidad")
 public class MedicoEspecialidad {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;

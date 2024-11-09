@@ -12,7 +12,6 @@ import java.util.List;
 @Entity
 @Table(name = "tb_especialidad")
 public class Especialidad {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id_especialidad")

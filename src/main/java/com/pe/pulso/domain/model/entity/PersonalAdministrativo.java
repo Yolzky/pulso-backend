@@ -12,7 +12,6 @@ import javax.persistence.*;
 @Entity
 @Table(name = "tb_personal_administrativo")
 public class PersonalAdministrativo {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id_personal_administrativo")

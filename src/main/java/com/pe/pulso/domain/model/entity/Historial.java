@@ -12,7 +12,6 @@ import javax.persistence.*;
 @Entity
 @Table(name = "tb_historial")
 public class Historial {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id_historial")
