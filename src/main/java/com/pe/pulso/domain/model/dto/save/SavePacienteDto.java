@@ -13,14 +13,5 @@ public class SavePacienteDto{
     private Integer idHistorial;
     private Integer idContactoEmergencia;
     //dtos persona
-    private String nombres;
-    private String apellido1;
-    private String apellido2;
-    private String direccion;
-    private String numeroTelefono;
-    private String sexo;
-    private String fechaNacimiento;
-    private Integer idTipoDocumento;
-    private String nroDocumento;
-    private String correo;
+    private SavePersonaDto savePersonaDto;
 }

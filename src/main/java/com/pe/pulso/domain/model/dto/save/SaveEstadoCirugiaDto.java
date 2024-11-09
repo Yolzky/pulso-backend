@@ -7,8 +7,9 @@ import lombok.Setter;
 @Getter
 @Setter
 @Builder
-public class SaveRolDto {
-    private String nombre;
+public class SaveEstadoCirugiaDto {
     private String codigo;
+    private String nombre;
+    private String descripcion;
     private Boolean estado;
 }
