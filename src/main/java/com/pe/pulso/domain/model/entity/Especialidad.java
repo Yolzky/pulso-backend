@@ -21,9 +21,6 @@ public class Especialidad {
     @Column(name = "nombre")
     private String nombre;
 
-    @Column(name = "numero_certificado")
-    private String numeroCertificado;
-
     @OneToMany(mappedBy = "especialidad")
     private List<MedicoEspecialidad> medicoEspecialidades;
 }

@@ -27,4 +27,10 @@ public class PersonalAdministrativo {
 
     @Column(name = "hora_fin")
     private String horaFin;
+
+    @Column(name = "id_rol")
+    private Integer idRol;
+
+    @Column(name = "password")
+    private String password;
 }

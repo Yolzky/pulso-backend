@@ -26,6 +26,9 @@ public class MedicoEspecialidad {
     @JoinColumn(name = "especialidad_id", nullable = false)
     private Especialidad especialidad;
 
+    @Column(name = "numero_certificado")
+    private String numeroCertificado;
+
     @Column(name = "fecha_especializacion")
     private LocalDate fechaEspecializacion;
 

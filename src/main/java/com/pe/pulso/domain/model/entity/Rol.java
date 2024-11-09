@@ -21,9 +21,9 @@ public class Rol {
     @Column(name = "nombre")
     private String nombre;
 
-    @Column(name = "fecha_inicio")
-    private String fechaInicio;
+    @Column(name = "codigo")
+    private String codigo;
 
-    @Column(name = "fecha_fin")
-    private String fechaFin;
+    @Column(name = "estado")
+    private Boolean estado;
 }

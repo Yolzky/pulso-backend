@@ -12,7 +12,6 @@ import javax.persistence.*;
 @Entity
 @Table(name = "tb_persona")
 public class Persona {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id_persona")
@@ -20,9 +19,6 @@ public class Persona {
 
     @Column(name = "nro_documento")
     private String nroDocumento;
-
-    @Column(name = "password")
-    private String password;
 
     @Column(name = "nombres")
     private String nombres;
@@ -53,7 +49,4 @@ public class Persona {
 
     @Column(name = "id_tipo_documento")
     private Integer idTipoDocumento;
-
-    @Column(name = "id_rol")
-    private Integer idRol;
 }
