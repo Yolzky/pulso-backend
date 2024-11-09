@@ -22,7 +22,7 @@ public class MedicoEspecialidad {
     private Medico medico;
 
     @ManyToOne
-    @JoinColumn(name = "especialidad_id", nullable = false)
+    @JoinColumn(name = "id_especialidad", nullable = false)
     private Especialidad especialidad;
 
     @Column(name = "numero_certificado")
