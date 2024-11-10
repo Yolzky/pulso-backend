@@ -11,7 +11,6 @@ import com.pe.pulso.domain.service.MedicoService;
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
 import org.springframework.stereotype.Service;
-
 import java.util.List;
 
 @Service
@@ -54,12 +53,12 @@ public class MedicoEspecialidadServiceImpl implements MedicoEspecialidadService 
     }
 
     @Override
-    public MedicoEspecialidad findAllByMedicoId(Integer medicoId) {
+    public List<MedicoEspecialidad> findAllByMedicoId(Integer medicoId) {
         return medicoEspecialidadRepository.findAllByMedicoId(medicoId);
     }
 
     @Override
-    public MedicoEspecialidad findAllByEspecialidadId(Integer especialidadId) {
+    public List<MedicoEspecialidad> findAllByEspecialidadId(Integer especialidadId) {
         return medicoEspecialidadRepository.findAllByEspecialidadId(especialidadId);
     }
 
