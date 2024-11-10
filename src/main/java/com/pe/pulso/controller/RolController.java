@@ -39,4 +39,10 @@ public class RolController {
     public List<Rol> findAll() {
         return rolService.findAll();
     }
+
+    @GetMapping("/findByCodigo/{codigo}")
+    public Rol findRolByCodigo(@PathVariable String codigo) {
+        return rolService.findRolByCodigo(codigo);
+    }
+
 }

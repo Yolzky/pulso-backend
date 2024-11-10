@@ -48,4 +48,9 @@ public class RolServiceImpl implements RolService {
                 .estado(dto.getEstado())
                 .build();
     }
+
+    @Override
+    public Rol findRolByCodigo(String codigo) {
+        return rolRepository.findByCodigo(codigo);
+    }
 }

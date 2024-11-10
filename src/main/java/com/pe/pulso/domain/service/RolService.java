@@ -6,4 +6,5 @@ import org.springframework.stereotype.Service;
 
 @Service
 public interface RolService extends GenericService<Rol, SaveRolDto, Integer>{
+    Rol findRolByCodigo(String codigo);
 }
